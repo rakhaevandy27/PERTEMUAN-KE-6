@@ -1,0 +1,50 @@
+    //file header//
+    #include<iostream>
+    #include<stdio.h>
+    #include<conio.h>
+    #include<curses.h>
+    using namespace std;
+
+int main(int argc, char const *argv[])
+{
+    float a,b,c,d,e,f,x,y;
+    system("color 0A");
+    system("cls");
+
+    //header//
+    cout<<"============================="<<endl;
+    cout<<"= NAMA   : RAKHA EVANDY     = \n";
+    cout<<"= NOBP   : 21-0081          = \n";
+    cout<<"= KELAS  : SK-2             = \n";
+    cout<<"=============================\n";
+    cout<<"=   TUGAS OPERATOR RELASI   ="<<endl;
+    cout<<"============================="<<endl;
+    cout<<endl;
+
+    //input//
+    cout<<"Masukan nilai x : ";
+    cin>>x;
+    cout<<"Masukan nilai y : ";
+    cin>>y;
+
+    //process//
+    a=x==y;
+    b=x!=y;
+    c=x>y;
+    d=x<y;
+    e=x>=y;
+    f=x<=y;
+
+    //output//
+    cout<<"\nHasil dari x==y    : "<<a;
+    cout<<"\nHasil dari x!=y    : "<<b;
+    cout<<"\nHasil dari x>y     : "<<c;
+    cout<<"\nHasil dari x<y     : "<<d;
+    cout<<"\nHasil dari x>=y    : "<<e;
+    cout<<"\nHasil dari x<=y    : "<<f;
+    cout<<endl;
+    cout<<endl;
+    cout<<"note : 1 meaning true, 0 meaning false"<<endl;
+
+    getchar();
+}
